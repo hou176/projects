@@ -1,0 +1,1257 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='1.1新增用户数据' inline='true' name='federated.03nu34010boakd17y46xd0j9bzqm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1.1新增用户数据' name='textscan.1lfh3qb1volfd51cgxn8l1nc14of'>
+            <connection class='textscan' directory='D:/DTy_work/analysis/2022.05.27健康帮5月分析报告/data' filename='1.1新增用户数据.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1lfh3qb1volfd51cgxn8l1nc14of' name='1.1新增用户数据.csv' table='[1.1新增用户数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='id' ordinal='1' />
+            <column datatype='integer' name='nickname' ordinal='2' />
+            <column datatype='integer' name='user_from' ordinal='3' />
+            <column datatype='string' name='user_province' ordinal='4' />
+            <column datatype='real' name='province_id' ordinal='5' />
+            <column datatype='string' name='p_name' ordinal='6' />
+            <column datatype='datetime' name='时间' ordinal='7' />
+            <column datatype='integer' name='age' ordinal='8' />
+            <column datatype='integer' name='gender' ordinal='9' />
+            <column datatype='integer' name='group_id' ordinal='10' />
+            <column datatype='integer' name='time' ordinal='11' />
+            <column datatype='string' name='用户注册方式' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1lfh3qb1volfd51cgxn8l1nc14of' name='1.1新增用户数据.csv' table='[1.1新增用户数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='id' ordinal='1' />
+            <column datatype='integer' name='nickname' ordinal='2' />
+            <column datatype='integer' name='user_from' ordinal='3' />
+            <column datatype='string' name='user_province' ordinal='4' />
+            <column datatype='real' name='province_id' ordinal='5' />
+            <column datatype='string' name='p_name' ordinal='6' />
+            <column datatype='datetime' name='时间' ordinal='7' />
+            <column datatype='integer' name='age' ordinal='8' />
+            <column datatype='integer' name='gender' ordinal='9' />
+            <column datatype='integer' name='group_id' ordinal='10' />
+            <column datatype='integer' name='time' ordinal='11' />
+            <column datatype='string' name='用户注册方式' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nickname</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nickname]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>nickname</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_from</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[user_from]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>user_from</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_province</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[user_province]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>user_province</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>province_id</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[province_id]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>province_id</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>p_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[p_name]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>p_name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>时间</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[时间]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>时间</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>group_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[group_id]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>group_id</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[time]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>time</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户注册方式</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[用户注册方式]</local-name>
+            <parent-name>[1.1新增用户数据.csv]</parent-name>
+            <remote-alias>用户注册方式</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='1.1新增用户数据.csv' datatype='table' name='[__tableau_internal_object_id__].[1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Gender' datatype='integer' name='[gender]' role='measure' type='quantitative' />
+      <column caption='Group Id' datatype='integer' name='[group_id]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Nickname' datatype='integer' name='[nickname]' role='measure' type='quantitative' />
+      <column caption='P Name' datatype='string' name='[p_name]' role='dimension' type='nominal' />
+      <column caption='Province Id' datatype='real' name='[province_id]' role='dimension' type='ordinal' />
+      <column caption='Time' datatype='integer' name='[time]' role='measure' type='quantitative' />
+      <column caption='User From' datatype='integer' name='[user_from]' role='measure' type='quantitative' />
+      <column caption='User Province' datatype='string' name='[user_province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;中国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='1.1新增用户数据.csv' id='1.1新增用户数据.csv_172C7F0463524D93BA0037895006F25A'>
+            <properties context=''>
+              <relation connection='textscan.1lfh3qb1volfd51cgxn8l1nc14of' name='1.1新增用户数据.csv' table='[1.1新增用户数据#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='id' ordinal='1' />
+                  <column datatype='integer' name='nickname' ordinal='2' />
+                  <column datatype='integer' name='user_from' ordinal='3' />
+                  <column datatype='string' name='user_province' ordinal='4' />
+                  <column datatype='real' name='province_id' ordinal='5' />
+                  <column datatype='string' name='p_name' ordinal='6' />
+                  <column datatype='datetime' name='时间' ordinal='7' />
+                  <column datatype='integer' name='age' ordinal='8' />
+                  <column datatype='integer' name='gender' ordinal='9' />
+                  <column datatype='integer' name='group_id' ordinal='10' />
+                  <column datatype='integer' name='time' ordinal='11' />
+                  <column datatype='string' name='用户注册方式' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='2.5各个省份活跃数据' inline='true' name='federated.0vdpvle18e4nun1252rfx1iwfn49' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2.5各个省份活跃数据' name='textscan.13l4d1f1l94dsr1c4c6ga0k0q7iv'>
+            <connection class='textscan' directory='D:/DTy_work/analysis/2022.05.27健康帮5月分析报告/data' filename='2.5各个省份活跃数据.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.13l4d1f1l94dsr1c4c6ga0k0q7iv' name='2.5各个省份活跃数据.csv' table='[2.5各个省份活跃数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='用户活跃次数' ordinal='1' />
+            <column datatype='integer' name='用户DAU之和' ordinal='2' />
+            <column datatype='integer' name='用户活跃MAU' ordinal='3' />
+            <column datatype='real' name='用户平均活跃次数' ordinal='4' />
+            <column datatype='real' name='用户活跃粘性' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.13l4d1f1l94dsr1c4c6ga0k0q7iv' name='2.5各个省份活跃数据.csv' table='[2.5各个省份活跃数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='用户活跃次数' ordinal='1' />
+            <column datatype='integer' name='用户DAU之和' ordinal='2' />
+            <column datatype='integer' name='用户活跃MAU' ordinal='3' />
+            <column datatype='real' name='用户平均活跃次数' ordinal='4' />
+            <column datatype='real' name='用户活跃粘性' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户活跃次数</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[用户活跃次数]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户活跃次数</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户DAU之和</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[用户DAU之和]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户DAU之和</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户活跃MAU</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[用户活跃MAU]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户活跃MAU</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户平均活跃次数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[用户平均活跃次数]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户平均活跃次数</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户活跃粘性</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[用户活跃粘性]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户活跃粘性</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2.5各个省份活跃数据.csv' datatype='table' name='[__tableau_internal_object_id__].[2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87]' role='measure' type='quantitative' />
+      <column caption='用户dau之和' datatype='integer' name='[用户DAU之和]' role='measure' type='quantitative' />
+      <column caption='用户活跃mau' datatype='integer' name='[用户活跃MAU]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;中国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2.5各个省份活跃数据.csv' id='2.5各个省份活跃数据.csv_0E684673E9F547EA98F8F1920E9F8D87'>
+            <properties context=''>
+              <relation connection='textscan.13l4d1f1l94dsr1c4c6ga0k0q7iv' name='2.5各个省份活跃数据.csv' table='[2.5各个省份活跃数据#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='integer' name='用户活跃次数' ordinal='1' />
+                  <column datatype='integer' name='用户DAU之和' ordinal='2' />
+                  <column datatype='integer' name='用户活跃MAU' ordinal='3' />
+                  <column datatype='real' name='用户平均活跃次数' ordinal='4' />
+                  <column datatype='real' name='用户活跃粘性' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='2.2两个月用户活跃每日数据' inline='true' name='federated.1db1ul20krahsy140hi5j05ng86b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2.2两个月用户活跃每日数据' name='textscan.0uj7gxm0nrrfyp10zb0em1g22ak1'>
+            <connection class='textscan' directory='D:/DTy_work/analysis/2022.05.27健康帮5月分析报告/data' filename='2.2两个月用户活跃每日数据.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0uj7gxm0nrrfyp10zb0em1g22ak1' name='2.2两个月用户活跃每日数据.csv' table='[2.2两个月用户活跃每日数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='integer' name='活跃次数' ordinal='1' />
+            <column datatype='integer' name='活跃人数' ordinal='2' />
+            <column datatype='real' name='平均活跃次数' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0uj7gxm0nrrfyp10zb0em1g22ak1' name='2.2两个月用户活跃每日数据.csv' table='[2.2两个月用户活跃每日数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='integer' name='活跃次数' ordinal='1' />
+            <column datatype='integer' name='活跃人数' ordinal='2' />
+            <column datatype='real' name='平均活跃次数' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2.2两个月用户活跃每日数据.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[2.2两个月用户活跃每日数据.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.2两个月用户活跃每日数据.csv_6B5909337C1D44BDB5744B02E5BF8C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>活跃次数</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[活跃次数]</local-name>
+            <parent-name>[2.2两个月用户活跃每日数据.csv]</parent-name>
+            <remote-alias>活跃次数</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.2两个月用户活跃每日数据.csv_6B5909337C1D44BDB5744B02E5BF8C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>活跃人数</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[活跃人数]</local-name>
+            <parent-name>[2.2两个月用户活跃每日数据.csv]</parent-name>
+            <remote-alias>活跃人数</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.2两个月用户活跃每日数据.csv_6B5909337C1D44BDB5744B02E5BF8C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>平均活跃次数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[平均活跃次数]</local-name>
+            <parent-name>[2.2两个月用户活跃每日数据.csv]</parent-name>
+            <remote-alias>平均活跃次数</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.2两个月用户活跃每日数据.csv_6B5909337C1D44BDB5744B02E5BF8C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2.2两个月用户活跃每日数据.csv' datatype='table' name='[__tableau_internal_object_id__].[2.2两个月用户活跃每日数据.csv_6B5909337C1D44BDB5744B02E5BF8C70]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;中国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2.2两个月用户活跃每日数据.csv' id='2.2两个月用户活跃每日数据.csv_6B5909337C1D44BDB5744B02E5BF8C70'>
+            <properties context=''>
+              <relation connection='textscan.0uj7gxm0nrrfyp10zb0em1g22ak1' name='2.2两个月用户活跃每日数据.csv' table='[2.2两个月用户活跃每日数据#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='date' name='F1' ordinal='0' />
+                  <column datatype='integer' name='活跃次数' ordinal='1' />
+                  <column datatype='integer' name='活跃人数' ordinal='2' />
+                  <column datatype='real' name='平均活跃次数' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='2.5各个省份活跃数据 (2)' inline='true' name='federated.0wpvsdc0w1jvy712lagb904lvym3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2.5各个省份活跃数据' name='textscan.1txl7w717f7gz917rm91j0wop0ew'>
+            <connection class='textscan' directory='D:/DTy_work/analysis/2022.05.27健康帮5月分析报告/data' filename='2.5各个省份活跃数据.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1txl7w717f7gz917rm91j0wop0ew' name='2.5各个省份活跃数据.csv' table='[2.5各个省份活跃数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='用户活跃次数' ordinal='1' />
+            <column datatype='integer' name='用户DAU之和' ordinal='2' />
+            <column datatype='integer' name='用户活跃MAU' ordinal='3' />
+            <column datatype='real' name='用户平均活跃次数' ordinal='4' />
+            <column datatype='real' name='用户活跃粘性' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1txl7w717f7gz917rm91j0wop0ew' name='2.5各个省份活跃数据.csv' table='[2.5各个省份活跃数据#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='用户活跃次数' ordinal='1' />
+            <column datatype='integer' name='用户DAU之和' ordinal='2' />
+            <column datatype='integer' name='用户活跃MAU' ordinal='3' />
+            <column datatype='real' name='用户平均活跃次数' ordinal='4' />
+            <column datatype='real' name='用户活跃粘性' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户活跃次数</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[用户活跃次数]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户活跃次数</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户DAU之和</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[用户DAU之和]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户DAU之和</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户活跃MAU</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[用户活跃MAU]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户活跃MAU</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户平均活跃次数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[用户平均活跃次数]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户平均活跃次数</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>用户活跃粘性</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[用户活跃粘性]</local-name>
+            <parent-name>[2.5各个省份活跃数据.csv]</parent-name>
+            <remote-alias>用户活跃粘性</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[F1]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='2.5各个省份活跃数据.csv' datatype='table' name='[__tableau_internal_object_id__].[2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B]' role='measure' type='quantitative' />
+      <column caption='用户dau之和' datatype='integer' name='[用户DAU之和]' role='measure' type='quantitative' />
+      <column caption='用户活跃mau' datatype='integer' name='[用户活跃MAU]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;中国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2.5各个省份活跃数据.csv' id='2.5各个省份活跃数据.csv_AAAEC329CB95462897C63FEDD223A01B'>
+            <properties context=''>
+              <relation connection='textscan.1txl7w717f7gz917rm91j0wop0ew' name='2.5各个省份活跃数据.csv' table='[2.5各个省份活跃数据#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='integer' name='用户活跃次数' ordinal='1' />
+                  <column datatype='integer' name='用户DAU之和' ordinal='2' />
+                  <column datatype='integer' name='用户活跃MAU' ordinal='3' />
+                  <column datatype='real' name='用户平均活跃次数' ordinal='4' />
+                  <column datatype='real' name='用户活跃粘性' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='1.1用户增长每日数据'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1.1新增用户数据' name='federated.03nu34010boakd17y46xd0j9bzqm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03nu34010boakd17y46xd0j9bzqm'>
+            <column-instance column='[id]' derivation='Count' name='[cnt:id:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[时间]' derivation='Day-Trunc' name='[tdy:时间:ok]' pivot='key' type='ordinal' />
+            <column datatype='datetime' name='[时间]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.03nu34010boakd17y46xd0j9bzqm].[tdy:时间:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>#2022-04-02 00:00:00#</bucket>
+              <bucket>#2022-04-03 00:00:00#</bucket>
+              <bucket>#2022-04-04 00:00:00#</bucket>
+              <bucket>#2022-04-05 00:00:00#</bucket>
+              <bucket>#2022-04-06 00:00:00#</bucket>
+              <bucket>#2022-04-07 00:00:00#</bucket>
+              <bucket>#2022-04-01 00:00:00#</bucket>
+              <bucket>#2022-04-08 00:00:00#</bucket>
+              <bucket>#2022-04-09 00:00:00#</bucket>
+              <bucket>#2022-04-10 00:00:00#</bucket>
+              <bucket>#2022-04-11 00:00:00#</bucket>
+              <bucket>#2022-04-12 00:00:00#</bucket>
+              <bucket>#2022-04-13 00:00:00#</bucket>
+              <bucket>#2022-04-14 00:00:00#</bucket>
+              <bucket>#2022-04-15 00:00:00#</bucket>
+              <bucket>#2022-04-16 00:00:00#</bucket>
+              <bucket>#2022-04-17 00:00:00#</bucket>
+              <bucket>#2022-04-18 00:00:00#</bucket>
+              <bucket>#2022-04-19 00:00:00#</bucket>
+              <bucket>#2022-04-20 00:00:00#</bucket>
+              <bucket>#2022-04-21 00:00:00#</bucket>
+              <bucket>#2022-04-22 00:00:00#</bucket>
+              <bucket>#2022-04-23 00:00:00#</bucket>
+              <bucket>#2022-04-24 00:00:00#</bucket>
+              <bucket>#2022-04-25 00:00:00#</bucket>
+              <bucket>#2022-04-26 00:00:00#</bucket>
+              <bucket>#2022-04-27 00:00:00#</bucket>
+              <bucket>#2022-04-28 00:00:00#</bucket>
+              <bucket>#2022-04-29 00:00:00#</bucket>
+              <bucket>#2022-04-30 00:00:00#</bucket>
+              <bucket>#2022-05-01 00:00:00#</bucket>
+              <bucket>#2022-05-02 00:00:00#</bucket>
+              <bucket>#2022-05-03 00:00:00#</bucket>
+              <bucket>#2022-05-04 00:00:00#</bucket>
+              <bucket>#2022-05-05 00:00:00#</bucket>
+              <bucket>#2022-05-06 00:00:00#</bucket>
+              <bucket>#2022-05-07 00:00:00#</bucket>
+              <bucket>#2022-05-08 00:00:00#</bucket>
+              <bucket>#2022-05-09 00:00:00#</bucket>
+              <bucket>#2022-05-10 00:00:00#</bucket>
+              <bucket>#2022-05-11 00:00:00#</bucket>
+              <bucket>#2022-05-12 00:00:00#</bucket>
+              <bucket>#2022-05-13 00:00:00#</bucket>
+              <bucket>#2022-05-14 00:00:00#</bucket>
+              <bucket>#2022-05-15 00:00:00#</bucket>
+              <bucket>#2022-05-16 00:00:00#</bucket>
+              <bucket>#2022-05-17 00:00:00#</bucket>
+              <bucket>#2022-05-18 00:00:00#</bucket>
+              <bucket>#2022-05-19 00:00:00#</bucket>
+              <bucket>#2022-05-20 00:00:00#</bucket>
+              <bucket>#2022-05-21 00:00:00#</bucket>
+              <bucket>#2022-05-22 00:00:00#</bucket>
+              <bucket>#2022-05-23 00:00:00#</bucket>
+              <bucket>#2022-05-24 00:00:00#</bucket>
+              <bucket>#2022-05-25 00:00:00#</bucket>
+              <bucket>#2022-05-26 00:00:00#</bucket>
+              <bucket>#2022-05-27 00:00:00#</bucket>
+              <bucket>#2022-05-28 00:00:00#</bucket>
+              <bucket>#2022-05-29 00:00:00#</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.03nu34010boakd17y46xd0j9bzqm].[cnt:id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03nu34010boakd17y46xd0j9bzqm].[tdy:时间:ok]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{07D39933-110D-4BCB-B941-0C14EF136254}' />
+    </worksheet>
+    <worksheet name='1.2各个省份用户新增数据'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1.1新增用户数据' name='federated.03nu34010boakd17y46xd0j9bzqm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03nu34010boakd17y46xd0j9bzqm'>
+            <column-instance column='[id]' derivation='Count' name='[cnt:id:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[时间]' derivation='Month' name='[mn:时间:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[user_province]' derivation='None' name='[none:user_province:nk]' pivot='key' type='nominal' />
+            <column caption='User Province' datatype='string' name='[user_province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='datetime' name='[时间]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03nu34010boakd17y46xd0j9bzqm].[mn:时间:ok]'>
+            <groupfilter function='member' level='[mn:时间:ok]' member='5' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03nu34010boakd17y46xd0j9bzqm].[mn:时间:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.03nu34010boakd17y46xd0j9bzqm].[cnt:id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03nu34010boakd17y46xd0j9bzqm].[none:user_province:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{DBCF941D-ADF0-4EAE-8DA6-34DD3B2C66D0}' />
+    </worksheet>
+    <worksheet name='1.3四月五月每日活跃人数对比'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2.2两个月用户活跃每日数据' name='federated.1db1ul20krahsy140hi5j05ng86b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1db1ul20krahsy140hi5j05ng86b'>
+            <column datatype='date' name='[F1]' role='dimension' type='ordinal' />
+            <column-instance column='[活跃人数]' derivation='Sum' name='[sum:活跃人数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='Day-Trunc' name='[tdy:F1:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' name='[活跃人数]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1db1ul20krahsy140hi5j05ng86b].[sum:活跃人数:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1db1ul20krahsy140hi5j05ng86b].[tdy:F1:ok]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1B904E11-ED25-4F78-A423-154BFD899E12}' />
+    </worksheet>
+    <worksheet name='1.4用户注册方式数据对比'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1.1新增用户数据' name='federated.03nu34010boakd17y46xd0j9bzqm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03nu34010boakd17y46xd0j9bzqm'>
+            <column-instance column='[id]' derivation='Count' name='[cnt:id:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[时间]' derivation='Month' name='[mn:时间:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[用户注册方式]' derivation='None' name='[none:用户注册方式:nk]' pivot='key' type='nominal' />
+            <column datatype='datetime' name='[时间]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[用户注册方式]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03nu34010boakd17y46xd0j9bzqm].[mn:时间:ok]'>
+            <groupfilter function='member' level='[mn:时间:ok]' member='5' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03nu34010boakd17y46xd0j9bzqm].[mn:时间:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.03nu34010boakd17y46xd0j9bzqm].[cnt:id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03nu34010boakd17y46xd0j9bzqm].[none:用户注册方式:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{E2C24560-4D79-4B0B-BF3E-F37C46E2049B}' />
+    </worksheet>
+    <worksheet name='1.5用户平均活跃次数数据对比'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2.2两个月用户活跃每日数据' name='federated.1db1ul20krahsy140hi5j05ng86b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1db1ul20krahsy140hi5j05ng86b'>
+            <column datatype='date' name='[F1]' role='dimension' type='ordinal' />
+            <column-instance column='[活跃人数]' derivation='Sum' name='[sum:活跃人数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[活跃次数]' derivation='Sum' name='[sum:活跃次数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='Day-Trunc' name='[tdy:F1:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' name='[活跃人数]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[活跃次数]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1db1ul20krahsy140hi5j05ng86b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1db1ul20krahsy140hi5j05ng86b].[sum:活跃人数:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1db1ul20krahsy140hi5j05ng86b].[sum:活跃次数:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1db1ul20krahsy140hi5j05ng86b].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1db1ul20krahsy140hi5j05ng86b].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1db1ul20krahsy140hi5j05ng86b].[tdy:F1:ok]</rows>
+        <cols>[federated.1db1ul20krahsy140hi5j05ng86b].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{4933B3B8-7900-4A88-AD44-73ABEBE69BDE}' />
+    </worksheet>
+    <worksheet name='1.6各个省份用户活跃详情'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2.5各个省份活跃数据 (2)' name='federated.0wpvsdc0w1jvy712lagb904lvym3' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0wpvsdc0w1jvy712lagb904lvym3'>
+            <column datatype='string' name='[F1]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[用户活跃粘性]' derivation='Sum' name='[sum:用户活跃粘性:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[用户活跃粘性]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0wpvsdc0w1jvy712lagb904lvym3].[Longitude (generated)]' field-type='quantitative' max='15900922.332220364' min='7936639.9621688277' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0wpvsdc0w1jvy712lagb904lvym3].[Latitude (generated)]' field-type='quantitative' max='6487354.779315494' min='1965509.272452642' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='hillshade_highlight_bright' value='true' />
+            <format attr='enabled' id='hillshade_highlight_med' value='true' />
+            <format attr='enabled' id='hillshade_shadow_faint' value='true' />
+            <format attr='enabled' id='hillshade_shadow_med' value='true' />
+            <format attr='enabled' id='hillshade_shadow_dark' value='true' />
+            <format attr='enabled' id='hillshade_shadow_extreme' value='true' />
+            <format attr='enabled' id='light-admin-1-label-9th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-8th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-7th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-6th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-5th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-4th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-3rd-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-2nd-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-1st-tier' value='true' />
+            <format attr='enabled' id='light-us-admin-1-label-abbr-3rd-tier' value='true' />
+            <format attr='enabled' id='light-us-admin-1-label-abbr-2nd-tier' value='true' />
+            <format attr='enabled' id='light-us-admin-1-label-abbr-1st-tier' value='true' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='light' />
+            <format attr='wrap' value='false' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wpvsdc0w1jvy712lagb904lvym3].[none:F1:nk]' />
+              <text column='[federated.0wpvsdc0w1jvy712lagb904lvym3].[sum:用户活跃粘性:qk]' />
+              <color column='[federated.0wpvsdc0w1jvy712lagb904lvym3].[sum:用户活跃粘性:qk]' />
+              <geometry column='[federated.0wpvsdc0w1jvy712lagb904lvym3].[Geometry (generated)]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0wpvsdc0w1jvy712lagb904lvym3].[none:F1:nk]</run>
+                <run>&gt;&#10;</run>
+                <run>Æ&#10;</run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.0wpvsdc0w1jvy712lagb904lvym3].[sum:用户活跃粘性:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wpvsdc0w1jvy712lagb904lvym3].[Latitude (generated)]</rows>
+        <cols>[federated.0wpvsdc0w1jvy712lagb904lvym3].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{1E253C41-3687-49BD-83E3-3F37111A6DC8}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='93'>
+    <window class='worksheet' name='1.1用户增长每日数据'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D1FD7706-1416-4F0E-BF15-444C02943D27}' />
+    </window>
+    <window class='worksheet' name='1.2各个省份用户新增数据'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2C7532B3-5BAB-4226-AC5E-32C315588674}' />
+    </window>
+    <window class='worksheet' name='1.3四月五月每日活跃人数对比'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E119E360-9AD5-4100-AEBD-362CEC70A63D}' />
+    </window>
+    <window class='worksheet' name='1.4用户注册方式数据对比'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9DE4597E-8E89-450D-8F57-F8E9A4BEF60E}' />
+    </window>
+    <window class='worksheet' name='1.5用户平均活跃次数数据对比'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9F7508EE-9AAC-4E82-8D4D-0FC41525A22E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='1.6各个省份用户活跃详情'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wpvsdc0w1jvy712lagb904lvym3].[sum:用户活跃粘性:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{B1EB097B-3156-409A-9939-41A37E6DF347}' />
+    </window>
+  </windows>
+</workbook>
